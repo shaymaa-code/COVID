@@ -1,0 +1,1191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav{
+    padding-bottom: 10px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+nav .logo {
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+}
+
+nav .navs ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+nav .navs ul li{
+   /* padding: 10px;  */
+   margin-left: 5px;
+   align-items: center;
+}
+
+nav .navs ul li a{
+    text-decoration: none;
+    color: rgb(54, 84, 140);
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    
+}
+nav .navs ul .baricon{
+    display: none;
+}
+
+nav .navs ul  .button a{
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(0, 123, 255);
+}
+
+nav .navs ul  .button :hover{
+    background-color: rgb(2, 82, 169);
+}
+
+/*---------------home-------------------*/
+main{
+    background-color: rgb(248, 248, 248);
+}
+#home{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 50px;
+    width: 70%;
+    
+    
+}
+#home .sickgurl img{
+    width: 90%;
+    
+}
+.home .text{
+    width: 100%;
+}
+#home .text .row1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0px;
+    margin: auto;
+    font-stretch: ultra-condensed;
+    
+    
+}
+.font{
+    font-family: 'Oswald', sans-serif;
+}
+#home .text .row1 .big-corona h1{
+
+    color: rgb(80 101 141);
+    font-size: 80px;
+    
+    
+}
+#home .text .row1 .covid-virus{
+
+    height: 20px;
+    
+}
+#home .text .row1 .covid-virus h3{
+    font-size: 30px;
+    color: red;
+    padding: 5px 15px;
+}
+#home .text .row1 .covid-virus h4{
+    font-size: 40px;
+    color: rgb(80 101 141);
+    padding: 5px 15px;
+}
+#home .text .row2{
+    flex-wrap: wrap;
+}
+#home .text .row2 p{
+    font-size: 19px;
+    color: rgb(93, 93, 93);
+    padding: 30px 0px;
+    
+}
+#home .text .row3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    font-size: 20px;
+    align-items: center;
+    padding-top: 30px;
+    
+    
+}
+#home .text .row3 .button{
+    padding: 5px;
+}
+#home .text .row3 .button a{
+    padding: 11px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(0, 123, 255);
+}
+
+#home .text .row3 .button a:hover{
+    background-color: rgba(0, 87, 180, 0.8);
+}
+
+#home .text .row3 .arrow-text{
+    font-size: 17px;
+    color: rgb(68, 96, 186);
+    padding: 5px;
+}
+#home .text .row4{
+    flex-wrap: wrap;
+    padding-top: 30px;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    width: 80%;
+}
+
+#home .text .row4 .statistics{
+    font-weight: bolder;
+    padding: 20px 0px;
+}
+
+#home .text .row4 .statistics h3{
+    font-size: 17px;
+    color: gray;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#home .text .row4 .statistics h2{
+    font-size: 25px;
+    margin-right: 15px;
+    color: rgb(70, 76, 122);
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#home .text .row5 .update p{
+    color: grey;
+    font-size: 13px;
+}
+
+/*----------------------------------          About         ----------------------------*/
+.about-corona{
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-corona .row{
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+.about-corona .row .text{
+    width: 60%;
+    
+}
+.blue-shade{
+    color: rgb(80, 101, 142);
+}
+.about-corona .row .text h4{
+    color: rgb(63, 111, 253);
+    font-size: 20px;
+    padding: 20px 0px;
+    font-weight: 100;
+}
+
+.about-corona .row .text h2{
+    font-size: 50px;
+    font-stretch: ultra-condensed;
+    padding: 10px 0px;
+    font-weight: bolder;
+}
+
+.about-corona .row .text h3{
+    font-size: 20px;
+    
+    padding: 10px 0px;
+    font-weight: bolder;
+}
+.about-corona .row .text p{
+    font-size: 20px;
+    padding: 9px 0px;
+    font-weight: 500;
+}
+
+.about-corona .row .list{
+    justify-content: end;
+    right: 0px;
+}
+
+.about-corona .row .list ul{
+    width: 100%;
+    font-size: 20px;
+    list-style-type: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.379);
+    border: 1px solid rgb(220, 220, 220);
+    padding: 10px 40px;
+}
+
+.about-corona .row .list ul  a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    color: rgb(63, 122, 239);
+}
+.about-corona .row .list ul  a li{
+    color: rgb(63, 122, 239);
+}
+.about-corona .row .list ul  li{
+     padding: 10px;
+     color: rgb(80, 101, 142);
+}
+
+/*----------------------------------          transmission         ----------------------------*/
+
+.transmission{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(248, 248, 248);
+}
+.transmission .text{
+    text-align:center;
+    
+}
+.transmission .text h4{
+    color: rgb(63, 111, 253);
+    font-size: 20px;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+
+.transmission .text h2{
+    font-size: 50px;
+    font-stretch: ultra-condensed;
+    padding: 10px 0px;
+    font-weight: bolder;
+    color: rgb(80, 101, 142);
+}
+.transmission .text p{
+    font-size: 17px;
+    padding: 9px 0px;
+    font-weight: 500;
+}
+
+
+
+.transmission .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.transmission .row .card{
+    width: calc(95%/3);
+    border: 1px solid rgb(201, 200, 200);
+    font-weight: bold;
+}
+
+.transmission .row .card img{
+    width: 100%;
+}
+.transmission .row .card .discriotion{
+    padding: 20px;
+    border-top: 5px solid rgb(109, 146, 255);
+}
+
+.transmission .row .card .discriotion h5{
+    font-size: 20px;
+    color: rgb(80, 101, 142);
+}
+
+.transmission .row .card .discriotion p{
+    font-size: 15px;
+    color: rgb(23, 23, 23);
+    margin: 10px 0;
+    padding-bottom: 20px;
+    color: rgb(80, 101, 142);
+}
+
+
+.transmission .button{
+    text-align: center;
+    margin: auto;
+    padding-top:40px ;
+}
+.transmission .button a{
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(0, 123, 255);
+    font-size: 20px;
+}
+
+
+.transmission .button a:hover{
+    background-color: rgba(0, 87, 180, 0.8);
+}
+
+/*----------------------------------          Symptoms         ----------------------------*/
+.Symptoms{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(248, 248, 248);
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.Symptoms .text{
+    text-align:center;
+    
+}
+.Symptoms .text h4{
+    color: #3f6ffd;
+    font-size: 20px;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+
+.Symptoms .text h2{
+    font-size: 50px;
+    font-stretch: ultra-condensed;
+    padding: 10px 0px;
+    font-weight: bolder;
+    color: rgb(80, 101, 142);
+}
+.Symptoms .text p{
+    font-size: 17px;
+    padding: 9px 0px;
+    font-weight: 500;
+}
+
+
+
+.Symptoms .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Symptoms .row .card{
+    width: calc(100%/3);
+    border: 2px solid rgb(224, 223, 223);
+    padding: 10px;
+    border-top: none;
+    
+}
+
+.Symptoms .row .card img{
+    width: 30%;
+    border-radius: 100px;
+    margin: auto;
+}
+.Symptoms .row .card .discriotion{
+    padding: 20px;
+    
+}
+
+.Symptoms .row .card .discriotion h4{
+    font-size: 20px;
+    color: rgb(80, 101, 142);
+    padding: 10px 0px;
+}
+
+.Symptoms .row .card .discriotion p{
+    font-size: 15px;
+    
+    margin: 10px 0;
+    padding-bottom: 20px;
+    color: rgb(83, 83, 83);
+
+}
+
+.Symptoms .down-row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    
+}
+
+.Symptoms .down-row .danger{
+    display: flex;
+    width: calc(95%/2);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.Symptoms .down-row .danger p span{
+    color: #3f6ffd;
+}
+
+.Symptoms .down-row .danger div i{
+    font-size: 70px;
+    margin: 10px;
+    color: rgb(80, 101, 142);
+}
+
+.Symptoms .button{
+    text-align: center;
+    margin: auto;
+    padding-top:40px ;
+}
+.Symptoms .button a{
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(0, 123, 255);
+    font-size: 20px;
+}
+
+
+.Symptoms .button a:hover{
+    background-color: rgba(0, 87, 180, 0.8);
+}
+
+
+/*----------------------------------          Prevention         ----------------------------*/
+#prevention {
+    width: 70%;
+    margin: auto;
+    
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+#prevention .text{
+    text-align:center;
+    
+}
+#prevention .text h4{
+    color: #3f6ffd;
+    font-size: 20px;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+
+#prevention .text h2{
+    font-size: 50px;
+    
+    padding: 10px 0px;
+    font-weight: bold;
+    color: rgb(80, 101, 142);
+}
+#prevention .text p{
+    font-size: 17px;
+    padding: 9px 0px;
+    font-weight: 500;
+    color: rgb(80, 101, 142);
+    padding-bottom: 50px;
+}
+
+
+
+
+#prevention .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#prevention .row .card{
+    width: calc(100%/4);
+    text-align: center;
+    padding: 10px;
+    border-top: none;
+    flex-wrap: wrap;
+    
+}
+
+#prevention .row .card img{
+    width: 40%;
+    border-radius: 100px;
+    margin: auto;
+}
+#prevention .row .card  h4{
+    font-size: 20px;
+    color: rgb(80, 101, 142);
+    padding: 10px 0px;
+}
+
+#prevention .row .card  p{
+    font-size: 17px;
+    color: rgb(80, 101, 142);
+    margin: 10px 0;
+    padding-bottom: 20px;
+    
+
+}
+
+
+
+#prevention .button{
+    text-align: center;
+    margin: auto;
+    padding-top:40px ;
+    width: 35%;
+}
+#prevention .button a{
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(0, 123, 255);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#prevention .button a:hover{
+    background-color: rgba(0, 87, 180, 0.8);
+}
+
+#prevention .arrow a{
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    padding-top:40px ;
+    width: 15%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    color: rgb(63, 122, 239);
+}
+
+
+/*----------------------------------          Steps         ----------------------------*/
+
+.steps .row{
+    background-color: white;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 50px;
+    width: 70%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.379);
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 20px;
+}
+.steps .row .text{
+    padding: 0px 20px 30px 20px;
+    width: 100%;
+}
+.steps .row .stepsimg img{
+    width: 100%;
+}
+
+
+.steps .text h4{
+    font-size: 35px;
+    color: rgb(80, 101, 142);
+    font-weight: 700;
+}
+.steps .text p{
+    font-size: 17px;
+    padding: 15px 0px;
+    font-weight: 300;
+    color: rgb(80, 101, 142);
+    
+}
+
+/*----------------------------------          Hand wash         ----------------------------*/
+.handwash{
+    padding-top: 100px;
+    width: 70%;
+   justify-content: center;
+    margin: auto; 
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.handwash .text h4{
+    font-size: 35px;
+    color: rgb(80, 101, 142);
+    font-weight: 700;
+    
+}
+
+.handwash .arrow a{
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    padding-top:40px ;
+    width: 20%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: rgb(63, 122, 239);
+}
+
+.handwash .row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+.handwash .row .wash img{
+    width: 80%;
+    border-radius: 100px;
+    
+    
+}
+
+.handwash .row .wash p{
+    color: rgb(80, 101, 142);
+}
+
+/*----------------------------------          Tretment         ----------------------------*/
+
+#treatment{
+    background-color: rgb(86, 86, 255);
+    
+    padding-top: 50px;
+}
+
+#treatment .row {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+#treatment .row .text{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#treatment .row .text h5{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#treatment .row .text h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+#treatment .row .text p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#treatment .row .textBox{
+    background-color: rgb(27, 71, 161);
+    padding: 40px;
+    border-radius: 20px;
+}
+#treatment .row .textBox h6{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#treatment .row .textBox p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#treatment .row .textBox ul{
+    list-style: none;
+    justify-content: space-between;
+}
+#treatment .row .textBox ul li{
+    margin-bottom: 10px;
+
+}
+
+/*----------------------------------          dodont         ----------------------------*/
+
+.dodont {
+    width: 70%;
+    margin: auto;
+    
+    
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.dodont .text{
+    text-align:center;
+    
+}
+
+.dodont .text h5{
+    color: #3f6ffd;
+    font-size: 20px;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+.dodont .text h2{
+    font-size: 50px;
+    font-stretch: ultra-condensed;
+    padding: 10px 0px;
+    font-weight: bold;
+    color: rgb(80, 101, 142);
+}
+
+
+.dodont .text p{
+    font-size: 17px;
+    padding: 9px 0px;
+    font-weight: 500;
+    color: rgb(80, 101, 142);
+    padding-bottom: 50px;
+}
+
+
+
+
+.dodont .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    margin: auto;
+}
+.dodont .row .leftimgs{
+    width: calc(100%/3);
+    
+}
+
+.dodont .row .leftimgs .wrong{
+    display: flex;
+    justify-content: center;
+    padding: 24px 70px 24px 24px;
+    text-align: center;
+}
+.dodont .row .leftimgs .wrong img{
+    border: 1px solid #3f6ffd;
+    border-radius: 100px;
+    width: 100%;
+    align-items: center;
+
+}
+
+.dodont .row .leftimgs .wrong p{
+    
+    padding: 25px 0px 0px 10px;
+    color: rgb(42, 129, 234);
+    font-size: 15px;
+    font-weight: bold;
+}
+.dodont .row .rightimg{
+    width: calc(100%/3);
+    
+}
+
+.dodont .row .rightimg .right{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    text-align: center;
+}
+.dodont .row .rightimg .right img{
+    border: 1px solid #3f6ffd;
+    border-radius: 100px;
+    width: 100%;
+    align-items: center;
+
+}
+
+.dodont .row .rightimg .right p{
+    
+    padding: 25px 0px 0px 10px;
+    color: #2a81ea;
+    font-size: 15px;
+    font-weight: bold;
+}
+.dodont .row .midimg img{
+    width: 100%;
+    
+}
+
+/*----------------------------------          FAQ         ----------------------------*/
+#FAQ  {
+    width: 70%;
+    margin: auto;
+    
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+#FAQ .text{
+    text-align:center;
+    
+}
+
+#FAQ .text h5{
+    color: #3f6ffd;
+    font-size: 20px;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+#FAQ .text h2{
+    font-size: 50px;
+    font-stretch: ultra-condensed;
+    padding: 10px 0px;
+    font-weight: bold;
+    color: rgb(80, 101, 142);
+}
+#FAQ .lists{
+    display: flex;
+}
+#FAQ .lists .rightList{
+    width: 25%;
+    padding-top: 20px;
+}
+#FAQ .lists .rightList ul{
+    list-style: none;
+    
+}
+#FAQ .lists .rightList ul a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(80, 101, 142);
+    padding: 20px 10px;
+    border: 2px solid rgb(231, 232, 255);
+    border-radius: 8px;
+    margin: 10px 0px;
+    transition: 0.5s;
+    justify-content: space-between;
+
+}
+
+
+#FAQ .lists .rightList ul a:hover{
+    border-color:#2a81ea ;
+}
+
+
+
+.leftList ul {
+    list-style: none;
+    
+    border: 2px solid rgb(231, 232, 255);
+    border-radius: 8px;
+    margin:20px;
+    background-color: #f3f3f3;
+}
+
+.leftList li {
+    margin-bottom: 10px;
+   
+}
+
+.leftList li a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #192c62;
+    padding: 20px;
+   
+}
+
+.leftList li a:hover {
+    color: #007bff;
+}
+
+.leftList li h6 {
+    font-size: 18px;
+    
+    font-weight: bold;
+}
+
+.leftList li i{
+    padding-left: 5px;
+}
+
+
+
+.leftList ul hr{
+    border: none;
+    border-top: 2px solid #d4d4d4;
+}
+
+
+
+/*----------------------------------          news         ----------------------------*/
+
+#news  {
+    width: 70%;
+    margin: auto;
+    
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+#news .text{
+    text-align:center;
+    
+}
+
+#news .text h5{
+    color: #3f6ffd;
+    font-size: 20px;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+#news .text h2{
+    font-size: 50px;
+    font-stretch: ultra-condensed;
+    padding: 10px 0px;
+    font-weight: bold;
+    color: rgb(80, 101, 142);
+}
+
+
+
+
+#news .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+#news .row .card{
+ width: calc(100%/3);
+    
+}
+
+#news .row .card img{
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px;;
+}
+#news .row .card .discriotion{
+    padding: 20px;
+    text-align: center;
+   
+}
+#news .row .card .discriotion h5{
+    font-size: 20px;
+    color: rgb(80, 101, 142);
+    font-weight: bold;
+}
+
+#news .row .card .discriotion p{
+    font-size: 15px;
+    color: rgb(61, 75, 105);
+    margin: 10px 0;
+    
+}
+
+
+/*----------------------------------          Footer         ----------------------------*/
+.footer{
+    background-color: rgb(14, 22, 41);
+    
+    
+}
+.footer .row{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer .row .social{
+    width: calc(100%/4);
+    color: rgb(178, 191, 224);
+}
+.footer .row .social .social-icons{
+    font-size: 30px;
+    display: flex;
+}
+.footer .row .social .social-icons i{
+    margin: 10px;
+}
+
+.footer .row .social .logo{
+    color: white;    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+
+.footer .row .social p{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer .row .link a{
+    
+    text-decoration: none;
+    color: rgb(178, 191, 224);
+}
+
+.footer .row .link a p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer hr{
+    border: none;
+    border-top: 2px solid rgb(178, 191, 224);
+    width: 70%;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.footer .bottom-footer{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.footer .bottom-footer p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(178, 191, 224);
+
+}
+
+/*####################################### Media #########################################*/
+@media (max-width: 1170px){
+    nav .navs ul li a{
+        display: none;
+    }
+nav .navs ul .baricon{
+        display: block;
+        font-size: x-large;
+    }
+}
+
+@media (max-width: 1124px){
+    #home{
+        flex-wrap: wrap;
+    }
+    .about-corona .row{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .about-corona .row .text{
+        width: 100%;
+    }
+    .about-corona .row .list{
+        width: 100%;
+    }
+    .Symptoms .down-row{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media (max-width: 992px){
+    
+    .transmission .row .card{
+        width: 100%;
+    }
+    .Symptoms .row .card{
+        width: 100%;
+    }
+    .Symptoms .row .card img{
+        width: 30%;
+        border-radius: 100px;
+        
+    }
+
+    #prevention .row .card{
+        width: calc(100%/2);
+    }
+    .handwash .row{
+        flex-wrap: wrap;
+        justify-content: center ;
+    }
+    .handwash .arrow a{
+        margin: auto;
+        width: 30%;
+        text-align: center;
+    }
+    #FAQ .lists .rightList{
+        width: 100%;
+        
+    }
+    #FAQ .lists .leftList{
+        width: 100%;
+    }
+    #FAQ .lists{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width: 625px){
+
+    #home .text .row1 .big-corona h1 {
+        font-size: 40px;
+    }
+
+    #home .text .row1 .covid-virus h3, #home .text .row1 .covid-virus h4 {
+        font-size: 20px;
+    }
+    #prevention .row .card{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .steps .row{
+        flex-wrap: wrap;
+    }
+    .Symptoms .down-row .danger{
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .dodont .row{
+        flex-wrap: wrap;
+    }
+
+    .dodont .row .leftimgs{
+        width: 100%;
+        
+       
+    }
+    .dodont .row .rightimg{
+        width: 90%;
+        
+    }
+    #news .row .card{
+        width: 100%;
+    }
+}
+
+@media (max-width: 521px){
+    .Symptoms .button a{
+        
+        font-size: 15px;
+    }
+    .transmission .button a{
+        
+        font-size: 15px;
+    }
+    #prevention .button a{
+        font-size: 15px;
+    }
+
+}
